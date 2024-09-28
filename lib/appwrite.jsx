@@ -30,7 +30,7 @@ client
                 password,
                 user_name
             );
-
+            console.log('newAccount', newAccount)
             if(!newAccount) throw Error;
 
             const avatarurl = avatars.getInitials(user_name);
@@ -42,7 +42,7 @@ client
                 config.userCollectionId,
                 ID.unique(),
                 {
-                    accountID: newAccount.id,
+                    accountId: newAccount.$id,
                     email,
                     user_name,
                     avatar: avatarurl
