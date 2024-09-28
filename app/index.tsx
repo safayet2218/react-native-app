@@ -41,7 +41,7 @@ export default function App() {
           </View>
 
           <Text className='text-sm font-pregular text-gray-100 mt-7 text-center'>
-            Where creativity meets innovation: embark on a journey of limitless 
+            Where creativity meets innovation: embark on a journey of limitless
           </Text>
           <CustomButton 
             title='Continue with Email'
@@ -50,7 +50,7 @@ export default function App() {
           />
         </View>
       </ScrollView>
-      <StatusBar backgroundColor='#1611622' 
+      <StatusBar backgroundColor='#161622' 
         style='light'
       />
     </SafeAreaView>
